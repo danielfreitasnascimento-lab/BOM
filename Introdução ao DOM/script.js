@@ -15,7 +15,9 @@ var minutos = data.getMinutes()
 
     msg.innerHTML = "Agoa são ${hora}:${minutos}Am"
 
-if(hora>= 0 && hora <21){}
+if(hora>= 0 && hora <21){
+    ing.scr = "manha.png"
+}
 else if(hora >= 12 && hora < 18){}
 else{}
 }
