@@ -17,9 +17,16 @@ var minutos = data.getMinutes()
 
 if(hora>= 0 && hora <21){
     ing.scr = "manha.png"
+    Document.body.style.background ="#dc2f02"
 }
-else if(hora >= 12 && hora < 18){}
-else{}
+else if(hora >= 12 && hora < 18){
+    ing.scr = "tarde.png"
+    Document.body.style.background ="0096c7"
+}
+else{
+ing.scr = "tarde.png"
+    Document.body.style.background ="212529"
+    }
 }
    
 
