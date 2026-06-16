@@ -21,11 +21,11 @@ if(hora>= 0 && hora <21){
 }
 else if(hora >= 12 && hora < 18){
     ing.scr = "tarde.png"
-    Document.body.style.background ="0096c7"
+    Document.body.style.background ="#0096c7"
 }
 else{
-ing.scr = "tarde.png"
-    Document.body.style.background ="212529"
+ing.scr = "noite.png"
+    Document.body.style.background ="#212529"
     }
 }
    
